@@ -1,0 +1,10 @@
+Package: com.tw23.akmessages
+Name: AKMessages
+Depends: mobilesubstrate, firmware (>= 8.0)
+Architecture: iphoneos-arm
+Description: TypeTab but for Messages
+Maintainer: Tim Wong
+Author: Tim Wong
+Section: Tweaks
+Version: 0.1.1-2
+Installed-Size: 88
