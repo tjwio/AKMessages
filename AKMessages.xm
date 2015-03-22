@@ -6,7 +6,15 @@
 
 %hook CKTranscriptController
 
+/*
 - (void)viewDidAppear:(BOOL)arg1 {
+    %orig(arg1);
+    
+    [self showKeyboardForReply];
+}
+*/
+
+- (void)viewWillAppear:(BOOL)arg1 {
     %orig(arg1);
     
     [self showKeyboardForReply];
